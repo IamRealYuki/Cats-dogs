@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Creator</class>
+ <widget class="QWidget" name="Creator">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Creature Editor</string>
+  </property>
+  <layout class="QHBoxLayout" name="mainLayout">
+   <item>
+    <widget class="QLabel" name="creatureDisplay">
+     <property name="text">
+      <string>🐱</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="styleSheet">
+      <string>font-size: 64px; background-color: #f4f4f4;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="editorLayout">
+     <item>
+      <widget class="QPushButton" name="colorPickerButton">
+       <property name="text">
+        <string>Pick Color</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="bodyShapeSelector">
+       <item>
+        <property name="text">
+         <string>Cat</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Dog</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Fox</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="faceShapeSelector">
+       <item>
+        <property name="text">
+         <string>Normal</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Happy</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Angry</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="earShapeSelector">
+       <item>
+        <property name="text">
+         <string>Normal</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Pointy</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Floppy</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="stripeOption">
+       <property name="text">
+        <string>Stripes</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="bandanaOption">
+       <property name="text">
+        <string>Bandana</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

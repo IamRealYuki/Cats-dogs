@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/bg.jpg</file>
+        <file>img/button_texture.jpg</file>
+        <file>img/panel_texture.jpg</file>
+        <file>img/house1.png</file>
+        <file>img/house2.png</file>
+        <file>img/cross.png</file>
+        <file>img/menu.png</file>
+        <file>img/face_0.png</file>
+        <file>img/face_1.png</file>
+        <file>img/stripes.png</file>
+        <file>img/body_border_0.png</file>
+        <file>img/body_fill_0.png</file>
+    </qresource>
+    <qresource prefix="/font">
+        <file>fonts/Monocraft.otf</file>
+    </qresource>
+</RCC>
